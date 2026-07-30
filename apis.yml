@@ -1,7 +1,32 @@
 aid: lablabee
 name: LabLabee
-description: LabLabee is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LabLabee is an AI-powered enablement, testing and troubleshooting platform for telecom
+  teams, positioning itself as "the Copilot for Telco Engineers." The platform delivers on-demand,
+  hands-on labs, sandboxes, learning paths and skill tests covering 4G/5G and Open RAN, IMS, network
+  OAM, SDN and IP networking, telco cloud (OpenStack, OpenShift, Kubernetes, Docker), DevOps and
+  GitOps automation (Terraform, Ansible, CI/CD), Linux, IAM and cybersecurity, and Industry 4.0 and
+  IoT. Three AI capabilities sit on top of the lab catalog: AI Ask (search across telecom standards,
+  vendor documentation and enterprise knowledge), AI Test (automated test execution and configuration
+  validation) and AI Troubleshoot (automated trace analysis and root-cause identification). LabLabee
+  serves telcos, universities, system integrators, network vendors and industrial private-network
+  operators. Founded by Samir Tahraoui (CEO) and Mahfoud S. A. Mebarek (CPO), the company is backed by
+  Accel, Kima Ventures, Reach Capital, Brighteye Ventures and 500 Global, and has been recognized as
+  Best Telecom Startup by the World Communication Awards and with the TM Forum Growth Challenge Award.
+  As of this enrichment pass LabLabee publishes no public developer program - no API documentation,
+  API reference, OpenAPI, SDKs, CLI or public package artifacts were found on any of its surfaces.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/613b2003a2724c27229f09b4/68bf95124ace4d2736f20b05_Horizantal%20Logo%20Green%20White.svg
 url: https://raw.githubusercontent.com/api-evangelist/lablabee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +36,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Telecommunications
+- Network Automation
+- Training
+- Education
+- Artificial Intelligence
+- Cloud Native
+- 5G
+- Open RAN
+- Kubernetes
+- DevOps
+- Sandboxes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +57,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lablabee-domain-security.yml
 - type: Website
   url: https://lablabee.com
+- type: Blog
+  url: https://www.lablabee.com/blog
+- type: SignUp
+  url: https://www.lablabee.com/start-free-trial
+- type: Login
+  url: https://app.lablabee.com/
+- type: Support
+  url: https://www.lablabee.com/contact-us
+- type: TermsOfService
+  url: https://www.lablabee.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.lablabee.com/privacy-policy
+- type: About
+  url: https://www.lablabee.com/about/company
+- type: Partners
+  url: https://www.lablabee.com/about/partners
+- type: Catalog
+  url: https://www.lablabee.com/catalog
+- type: WhitePapers
+  url: https://www.lablabee.com/ebooks
+- type: LLMsTxt
+  url: llms/lablabee-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
