@@ -1,0 +1,47 @@
+# LabLabee
+
+> LabLabee is an AI-powered enablement, testing and troubleshooting platform for telecom teams —
+> "the Copilot for Telco Engineers." It delivers on-demand hands-on labs, sandboxes, learning paths
+> and skill tests across 4G/5G and Open RAN, IMS, network OAM, SDN/IP, telco cloud (OpenStack,
+> OpenShift, Kubernetes, Docker), DevOps/GitOps automation, Linux, IAM and cybersecurity, and
+> Industry 4.0/IoT — with AI Ask, AI Test and AI Troubleshoot layered on top. LabLabee does not
+> publish a public API, developer portal, SDKs or CLI as of 2026-07-19.
+
+## Company
+
+- [LabLabee](https://lablabee.com): Company website.
+- [About the company](https://www.lablabee.com/about/company): Mission, leadership and investors.
+- [Partners](https://www.lablabee.com/about/partners): Partner ecosystem.
+
+## Product
+
+- [Catalog](https://www.lablabee.com/catalog): Hands-on labs, learning paths, sandboxes and skill tests.
+- [Start a free trial](https://www.lablabee.com/start-free-trial): Sign up for platform access.
+- [Application](https://app.lablabee.com/): Authenticated web application (login).
+
+## Resources
+
+- [Blog](https://www.lablabee.com/blog): Company and telecom-technology writing.
+- [Ebooks and whitepapers](https://www.lablabee.com/ebooks): Long-form resources.
+- [Contact](https://www.lablabee.com/contact-us): Sales and support contact.
+
+## Legal
+
+- [Terms of service](https://www.lablabee.com/terms-of-service)
+- [Privacy policy](https://www.lablabee.com/privacy-policy)
+
+## API Evangelist artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/lablabee/refs/heads/main/apis.yml): Machine-readable provider profile.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/lablabee/refs/heads/main/security/lablabee-domain-security.yml): Probed TLS/HSTS/DNS posture.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/lablabee/refs/heads/main/well-known/lablabee-well-known.yml): Probed .well-known discovery surface (none published).
+
+## Notes
+
+- No OpenAPI, AsyncAPI, GraphQL or Postman collection is published by LabLabee.
+- No first-party SDK or CLI packages were found on npm, PyPI, Maven Central, NuGet, pkg.go.dev,
+  RubyGems, Packagist or crates.io.
+- No public changelog, status page, roadmap, pricing page, trust center or vulnerability-disclosure
+  program was found.
+- The GitHub account github.com/lablabee exists but publishes no repositories and does not link back
+  to lablabee.com, so it is not wired as a verified GitHub organization.

@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of LabLabee hosts
+summary: >-
+  No .well-known discovery documents are published. Probes of www.lablabee.com return hard 404s.
+  Probes of app.lablabee.com return HTTP 200 but the body is the single-page-application shell
+  (an HTML document titled "LabLabee"), i.e. a soft 404 from a catch-all route - not a real
+  security.txt or OIDC discovery document. Nothing was saved verbatim and no WellKnown or
+  SecurityTxt pointer is wired, because no genuine document exists.
+hosts:
+- host: https://www.lablabee.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://app.lablabee.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    note: SPA HTML shell returned by catch-all route, not RFC 9116 text
+  - path: /.well-known/openid-configuration
+    status: 200
+    valid: false
+    note: SPA HTML shell returned by catch-all route, not OIDC discovery JSON
+  - path: /api/v1
+    status: 200
+    valid: false
+    note: SPA HTML shell returned by catch-all route, not an API root
