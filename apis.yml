@@ -15,6 +15,17 @@ description: >-
   Best Telecom Startup by the World Communication Awards and with the TM Forum Growth Challenge Award.
   As of this enrichment pass LabLabee publishes no public developer program - no API documentation,
   API reference, OpenAPI, SDKs, CLI or public package artifacts were found on any of its surfaces.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
