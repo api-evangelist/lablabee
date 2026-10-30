@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LabLabee is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+LabLabee is an AI-powered enablement, testing and troubleshooting platform for telecom teams, positioning itself as "the Copilot for Telco Engineers." The platform delivers on-demand, hands-on labs, sandboxes, learning paths and skill tests covering 4G/5G and Open RAN, IMS, network OAM, SDN and IP networking, telco cloud (OpenStack, OpenShift, Kubernetes, Docker), DevOps and GitOps automation (Terraform, Ansible, CI/CD), Linux, IAM and cybersecurity, and Industry 4.0 and IoT. Three AI capabilities sit on top of the lab catalog: AI Ask (search across telecom standards, vendor documentation and enterprise knowledge), AI Test (automated test execution and configuration validation) and AI Troubleshoot (automated trace analysis and root-cause identification). LabLabee serves telcos, universities, system integrators, network vendors and industrial private-network operators. Founded by Samir Tahraoui (CEO) and Mahfoud S. A. Mebarek (CPO), the company is backed by Accel, Kima Ventures, Reach Capital, Brighteye Ventures and 500 Global, and has been recognized as Best Telecom Startup by the World Communication Awards and with the TM Forum Growth Challenge Award. As of this enrichment pass LabLabee publishes no public developer program - no API documentation, API reference, OpenAPI, SDKs, CLI or public package artifacts were found on any of its surfaces.
 
-Backed by: 500-global — https://lablabee.com
+**Areas:** Company · Telecommunications · Network Automation · Training · Education · Artificial Intelligence · Cloud-Native · 5G · Open RAN · Kubernetes · DevOps · Sandbox
+
+## LabLabee on APIs.io
+
+Everything profiled for LabLabee is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lablabee/](https://apis.io/providers/lablabee/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lablabee Domain Security](https://apis.io/security/lablabee/lablabee-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lablabee.com)
+- [Sign up](https://www.lablabee.com/start-free-trial)
+- [Support](https://www.lablabee.com/contact-us)
+- [Blog](https://www.lablabee.com/blog)
+- [Terms of service](https://www.lablabee.com/terms-of-service)
+- [Privacy policy](https://www.lablabee.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lablabee/](https://apis.io/providers/lablabee/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LabLabee: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lablabee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
